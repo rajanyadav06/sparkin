@@ -1,0 +1,58 @@
+:root {
+  /* Dark Theme Surfaces */
+  --bg-dark: #0A0B0D;
+  --bg-dark-secondary: #121418;
+  --bg-card-dark: #181B22;
+  --bg-card-dark-hover: #222630;
+  
+  /* Light Theme Surfaces */
+  --bg-light: #F8F9FA;
+  --bg-light-secondary: #EDEFF2;
+  --bg-card-light: #FFFFFF;
+  --bg-card-light-hover: #F3F4F6;
+  
+  /* Warm Luminaire Accents */
+  --accent-gold: #F59E0B;
+  --accent-amber: #EA580C;
+  --accent-gradient: linear-gradient(135deg, #F59E0B 0%, #EA580C 100%);
+  --accent-gradient-hover: linear-gradient(135deg, #EA580C 0%, #F59E0B 100%);
+  --accent-glow: rgba(245, 158, 11, 0.22);
+  --accent-glow-strong: rgba(245, 158, 11, 0.45);
+  
+  /* Text Colors */
+  --text-white: #FFFFFF;
+  --text-muted-dark: #9CA3AF;
+  --text-subtle-dark: #6B7280;
+  --text-dark: #111827;
+  --text-muted-light: #4B5563;
+  --text-subtle-light: #9CA3AF;
+  
+  /* Borders */
+  --border-dark: rgba(255, 255, 255, 0.08);
+  --border-dark-hover: rgba(245, 158, 11, 0.4);
+  --border-light: #E5E7EB;
+  --border-light-hover: rgba(234, 88, 12, 0.3);
+  
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-accent: 'Poppins', sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Elevation */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-card-dark: 0 12px 30px -10px rgba(0, 0, 0, 0.5);
+  --shadow-card-glow: 0 15px 35px -5px rgba(245, 158, 11, 0.15);
+
+  /* Transitions */
+  --transition-fast: 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Layout */
+  --container-max: 1360px;
+  --section-padding: 96px 0;
+  --section-padding-mobile: 60px 0;
+}
